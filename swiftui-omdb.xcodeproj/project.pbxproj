@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		332AF62E61CDCBA1074CDF14 /* Pods_swiftui_omdb_swiftui_omdbUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3241C2ADAD3BE10D324349C /* Pods_swiftui_omdb_swiftui_omdbUITests.framework */; };
+		9B7AEAC9E444C087207C53E3 /* Pods_swiftui_omdb.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F8A17F2B04FD0ED8C992669 /* Pods_swiftui_omdb.framework */; };
+		E84A769AFCA6E82B1CA19669 /* Pods_swiftui_omdbTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BC92408CF9F58E94763D80A /* Pods_swiftui_omdbTests.framework */; };
 		FE7F05932C1D9FD600803B0D /* swiftui_omdbApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE7F05922C1D9FD600803B0D /* swiftui_omdbApp.swift */; };
 		FE7F05952C1D9FD600803B0D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE7F05942C1D9FD600803B0D /* ContentView.swift */; };
 		FE7F05972C1D9FD700803B0D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FE7F05962C1D9FD700803B0D /* Assets.xcassets */; };
@@ -34,6 +37,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		298324DECE5D05E9708F2415 /* Pods-swiftui-omdb-swiftui-omdbUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-swiftui-omdb-swiftui-omdbUITests.release.xcconfig"; path = "Target Support Files/Pods-swiftui-omdb-swiftui-omdbUITests/Pods-swiftui-omdb-swiftui-omdbUITests.release.xcconfig"; sourceTree = "<group>"; };
+		5BC92408CF9F58E94763D80A /* Pods_swiftui_omdbTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_swiftui_omdbTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F8A17F2B04FD0ED8C992669 /* Pods_swiftui_omdb.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_swiftui_omdb.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		80A1AC35736F265AE88E6BB8 /* Pods-swiftui-omdbTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-swiftui-omdbTests.release.xcconfig"; path = "Target Support Files/Pods-swiftui-omdbTests/Pods-swiftui-omdbTests.release.xcconfig"; sourceTree = "<group>"; };
+		84078EC5D7410D7307E2B70D /* Pods-swiftui-omdb.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-swiftui-omdb.release.xcconfig"; path = "Target Support Files/Pods-swiftui-omdb/Pods-swiftui-omdb.release.xcconfig"; sourceTree = "<group>"; };
+		91D24244814C30AE150D0EFA /* Pods-swiftui-omdb-swiftui-omdbUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-swiftui-omdb-swiftui-omdbUITests.debug.xcconfig"; path = "Target Support Files/Pods-swiftui-omdb-swiftui-omdbUITests/Pods-swiftui-omdb-swiftui-omdbUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		B3241C2ADAD3BE10D324349C /* Pods_swiftui_omdb_swiftui_omdbUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_swiftui_omdb_swiftui_omdbUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D5E98B2B5CE8641B1E23AE1E /* Pods-swiftui-omdbTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-swiftui-omdbTests.debug.xcconfig"; path = "Target Support Files/Pods-swiftui-omdbTests/Pods-swiftui-omdbTests.debug.xcconfig"; sourceTree = "<group>"; };
+		FDC8B4A37E7CCE7A53828ACC /* Pods-swiftui-omdb.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-swiftui-omdb.debug.xcconfig"; path = "Target Support Files/Pods-swiftui-omdb/Pods-swiftui-omdb.debug.xcconfig"; sourceTree = "<group>"; };
 		FE7F058F2C1D9FD600803B0D /* swiftui-omdb.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "swiftui-omdb.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE7F05922C1D9FD600803B0D /* swiftui_omdbApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swiftui_omdbApp.swift; sourceTree = "<group>"; };
 		FE7F05942C1D9FD600803B0D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -51,6 +63,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9B7AEAC9E444C087207C53E3 /* Pods_swiftui_omdb.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -58,6 +71,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E84A769AFCA6E82B1CA19669 /* Pods_swiftui_omdbTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,12 +79,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				332AF62E61CDCBA1074CDF14 /* Pods_swiftui_omdb_swiftui_omdbUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C05621067B77331F6CCA5275 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5F8A17F2B04FD0ED8C992669 /* Pods_swiftui_omdb.framework */,
+				B3241C2ADAD3BE10D324349C /* Pods_swiftui_omdb_swiftui_omdbUITests.framework */,
+				5BC92408CF9F58E94763D80A /* Pods_swiftui_omdbTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		ECFDE057BD0CBA1E3A40FC4A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FDC8B4A37E7CCE7A53828ACC /* Pods-swiftui-omdb.debug.xcconfig */,
+				84078EC5D7410D7307E2B70D /* Pods-swiftui-omdb.release.xcconfig */,
+				91D24244814C30AE150D0EFA /* Pods-swiftui-omdb-swiftui-omdbUITests.debug.xcconfig */,
+				298324DECE5D05E9708F2415 /* Pods-swiftui-omdb-swiftui-omdbUITests.release.xcconfig */,
+				D5E98B2B5CE8641B1E23AE1E /* Pods-swiftui-omdbTests.debug.xcconfig */,
+				80A1AC35736F265AE88E6BB8 /* Pods-swiftui-omdbTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		FE7F05862C1D9FD600803B0D = {
 			isa = PBXGroup;
 			children = (
@@ -78,6 +117,8 @@
 				FE7F05A22C1D9FD700803B0D /* swiftui-omdbTests */,
 				FE7F05AC2C1D9FD700803B0D /* swiftui-omdbUITests */,
 				FE7F05902C1D9FD600803B0D /* Products */,
+				ECFDE057BD0CBA1E3A40FC4A /* Pods */,
+				C05621067B77331F6CCA5275 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -134,6 +175,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FE7F05B32C1D9FD700803B0D /* Build configuration list for PBXNativeTarget "swiftui-omdb" */;
 			buildPhases = (
+				515A395EF477C78A71471484 /* [CP] Check Pods Manifest.lock */,
 				FE7F058B2C1D9FD600803B0D /* Sources */,
 				FE7F058C2C1D9FD600803B0D /* Frameworks */,
 				FE7F058D2C1D9FD600803B0D /* Resources */,
@@ -151,6 +193,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FE7F05B62C1D9FD700803B0D /* Build configuration list for PBXNativeTarget "swiftui-omdbTests" */;
 			buildPhases = (
+				DC77BB4101CBB4848A786623 /* [CP] Check Pods Manifest.lock */,
 				FE7F059B2C1D9FD700803B0D /* Sources */,
 				FE7F059C2C1D9FD700803B0D /* Frameworks */,
 				FE7F059D2C1D9FD700803B0D /* Resources */,
@@ -169,6 +212,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FE7F05B92C1D9FD700803B0D /* Build configuration list for PBXNativeTarget "swiftui-omdbUITests" */;
 			buildPhases = (
+				B040F58D587B05F8389F6740 /* [CP] Check Pods Manifest.lock */,
 				FE7F05A52C1D9FD700803B0D /* Sources */,
 				FE7F05A62C1D9FD700803B0D /* Frameworks */,
 				FE7F05A72C1D9FD700803B0D /* Resources */,
@@ -251,6 +295,75 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		515A395EF477C78A71471484 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-swiftui-omdb-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B040F58D587B05F8389F6740 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-swiftui-omdb-swiftui-omdbUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DC77BB4101CBB4848A786623 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-swiftui-omdbTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		FE7F058B2C1D9FD600803B0D /* Sources */ = {
@@ -416,6 +529,7 @@
 		};
 		FE7F05B42C1D9FD700803B0D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FDC8B4A37E7CCE7A53828ACC /* Pods-swiftui-omdb.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -445,6 +559,7 @@
 		};
 		FE7F05B52C1D9FD700803B0D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 84078EC5D7410D7307E2B70D /* Pods-swiftui-omdb.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -474,6 +589,7 @@
 		};
 		FE7F05B72C1D9FD700803B0D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D5E98B2B5CE8641B1E23AE1E /* Pods-swiftui-omdbTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -494,6 +610,7 @@
 		};
 		FE7F05B82C1D9FD700803B0D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 80A1AC35736F265AE88E6BB8 /* Pods-swiftui-omdbTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -514,6 +631,7 @@
 		};
 		FE7F05BA2C1D9FD700803B0D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 91D24244814C30AE150D0EFA /* Pods-swiftui-omdb-swiftui-omdbUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -532,6 +650,7 @@
 		};
 		FE7F05BB2C1D9FD700803B0D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 298324DECE5D05E9708F2415 /* Pods-swiftui-omdb-swiftui-omdbUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
