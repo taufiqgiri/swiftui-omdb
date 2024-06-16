@@ -106,7 +106,6 @@
 				D5E98B2B5CE8641B1E23AE1E /* Pods-swiftui-omdbTests.debug.xcconfig */,
 				80A1AC35736F265AE88E6BB8 /* Pods-swiftui-omdbTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -179,6 +178,7 @@
 				FE7F058B2C1D9FD600803B0D /* Sources */,
 				FE7F058C2C1D9FD600803B0D /* Frameworks */,
 				FE7F058D2C1D9FD600803B0D /* Resources */,
+				A6B96F7BA70F081D6F828099 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -216,6 +216,7 @@
 				FE7F05A52C1D9FD700803B0D /* Sources */,
 				FE7F05A62C1D9FD700803B0D /* Frameworks */,
 				FE7F05A72C1D9FD700803B0D /* Resources */,
+				2D4B1EBBA7B8684B0DD15421 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -297,6 +298,23 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		2D4B1EBBA7B8684B0DD15421 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-swiftui-omdb-swiftui-omdbUITests/Pods-swiftui-omdb-swiftui-omdbUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-swiftui-omdb-swiftui-omdbUITests/Pods-swiftui-omdb-swiftui-omdbUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-swiftui-omdb-swiftui-omdbUITests/Pods-swiftui-omdb-swiftui-omdbUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		515A395EF477C78A71471484 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -317,6 +335,23 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A6B96F7BA70F081D6F828099 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-swiftui-omdb/Pods-swiftui-omdb-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-swiftui-omdb/Pods-swiftui-omdb-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-swiftui-omdb/Pods-swiftui-omdb-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		B040F58D587B05F8389F6740 /* [CP] Check Pods Manifest.lock */ = {
@@ -538,6 +573,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"swiftui-omdb/Preview Content\"";
 				DEVELOPMENT_TEAM = 292P5QPB73;
 				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -568,6 +604,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"swiftui-omdb/Preview Content\"";
 				DEVELOPMENT_TEAM = 292P5QPB73;
 				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
