@@ -27,6 +27,7 @@
 		FE799A212C1EB2A100417425 /* SearchField.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE799A202C1EB2A100417425 /* SearchField.swift */; };
 		FE799A252C1ED37000417425 /* MovieCacheModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE799A242C1ED37000417425 /* MovieCacheModel.swift */; };
 		FE799A282C1F36D600417425 /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE799A272C1F36D600417425 /* LoadingView.swift */; };
+		FE799A2A2C1F52A300417425 /* MovieViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE799A292C1F52A300417425 /* MovieViewModelTests.swift */; };
 		FE7F05932C1D9FD600803B0D /* swiftui_omdbApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE7F05922C1D9FD600803B0D /* swiftui_omdbApp.swift */; };
 		FE7F05952C1D9FD600803B0D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE7F05942C1D9FD600803B0D /* ContentView.swift */; };
 		FE7F05972C1D9FD700803B0D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FE7F05962C1D9FD700803B0D /* Assets.xcassets */; };
@@ -81,6 +82,7 @@
 		FE799A202C1EB2A100417425 /* SearchField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchField.swift; sourceTree = "<group>"; };
 		FE799A242C1ED37000417425 /* MovieCacheModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieCacheModel.swift; sourceTree = "<group>"; };
 		FE799A272C1F36D600417425 /* LoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
+		FE799A292C1F52A300417425 /* MovieViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieViewModelTests.swift; sourceTree = "<group>"; };
 		FE7F058F2C1D9FD600803B0D /* swiftui-omdb.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "swiftui-omdb.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE7F05922C1D9FD600803B0D /* swiftui_omdbApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swiftui_omdbApp.swift; sourceTree = "<group>"; };
 		FE7F05942C1D9FD600803B0D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -351,6 +353,7 @@
 			isa = PBXGroup;
 			children = (
 				FE7F05A32C1D9FD700803B0D /* swiftui_omdbTests.swift */,
+				FE799A292C1F52A300417425 /* MovieViewModelTests.swift */,
 			);
 			path = "swiftui-omdbTests";
 			sourceTree = "<group>";
@@ -629,6 +632,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FE7F05A42C1D9FD700803B0D /* swiftui_omdbTests.swift in Sources */,
+				FE799A2A2C1F52A300417425 /* MovieViewModelTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -694,7 +698,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -757,7 +761,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -851,6 +855,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 292P5QPB73;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
 				MARKETING_VERSION = 1.0;
@@ -872,6 +877,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 292P5QPB73;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
 				MARKETING_VERSION = 1.0;
