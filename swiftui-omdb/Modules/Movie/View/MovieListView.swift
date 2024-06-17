@@ -92,6 +92,7 @@ struct MovieListView: View {
             movie?.Title = $0.Title
             movie?.Poster = $0.Poster
             movie?.imdbID = $0.imdbID
+            movie?.Year = $0.Year
             
             newMovies.append(movie!)
         }

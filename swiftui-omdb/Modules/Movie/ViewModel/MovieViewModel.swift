@@ -35,6 +35,7 @@ class MovieViewModel: ObservableObject {
                 newMovie.Title = movie.Title ?? ""
                 newMovie.Poster = movie.Poster ?? ""
                 newMovie.imdbID = movie.imdbID ?? ""
+                newMovie.Year = movie.Year ?? ""
                 
                 movieList.append(newMovie)
             }
@@ -71,6 +72,8 @@ class MovieViewModel: ObservableObject {
                         
                         self.page += 1
                         self.latestKeyword = keyword
+                        
+                        self.saveMovieCache()
                     }
                 } else {
                     self.isFetchingData = false
@@ -83,9 +86,8 @@ class MovieViewModel: ObservableObject {
                     
                     self.page += 1
                     self.latestKeyword = keyword
+                    self.saveMovieCache()
                 }
-                
-                saveMovieCache()
             } else {
                 isFetchingData = false
                 self.errorMessage = result.Error

@@ -8,6 +8,8 @@
 import XCTest
 
 final class swiftui_omdbUITests: XCTestCase {
+    
+    private var app: XCUIApplication!
 
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.
@@ -16,10 +18,17 @@ final class swiftui_omdbUITests: XCTestCase {
         continueAfterFailure = false
 
         // In UI tests it’s important to set the initial state - such as interface orientation - required for your tests before they run. The setUp method is a good place to do this.
+        app = XCUIApplication()
+        app.launch()
+        
+        let sugDynamicsSgCard = app.buttons["SugDynamicsStTitle"]
+        XCTAssertTrue(sugDynamicsSgCard.exists)
+        sugDynamicsSgCard.tap()
     }
 
     override func tearDownWithError() throws {
         // Put teardown code here. This method is called after the invocation of each test method in the class.
+        app = nil
     }
 
     func testExample() throws {

@@ -13,7 +13,7 @@ struct MovieCard: View {
     
     var body: some View {
         GeometryReader { geometry in
-            let imageHeight = geometry.size.height - 30
+            let imageHeight = geometry.size.height - 50
             let imageWidth = geometry.size.width
             
             VStack {
@@ -32,8 +32,12 @@ struct MovieCard: View {
                     .clipped()
                     .cornerRadius(10)
                 Spacer()
-                Text(movie.Title ?? "")
-                    .foregroundStyle(Color.white)
+                VStack {
+                    Text("\(movie.Title ?? "")")
+                        .foregroundStyle(Color.white)
+                    Text("(\(movie.Year ?? ""))")
+                        .foregroundStyle(Color.white)
+                }
             }
         }
     }
