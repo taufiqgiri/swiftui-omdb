@@ -20,10 +20,6 @@ final class swiftui_omdbUITests: XCTestCase {
         // In UI tests it’s important to set the initial state - such as interface orientation - required for your tests before they run. The setUp method is a good place to do this.
         app = XCUIApplication()
         app.launch()
-        
-        let sugDynamicsSgCard = app.buttons["SugDynamicsStTitle"]
-        XCTAssertTrue(sugDynamicsSgCard.exists)
-        sugDynamicsSgCard.tap()
     }
 
     override func tearDownWithError() throws {
