@@ -18,6 +18,13 @@ struct MovieCard: View {
             
             VStack {
                 KFImage(URL(string: movie.Poster ?? ""))
+                    .placeholder {
+                        Image(systemName: "movieclapper.fill")
+                            .resizable()
+                            .scaledToFit()
+                            .frame(width: imageWidth, height: imageHeight)
+                            .foregroundColor(.gray)
+                    }
                     .cancelOnDisappear(true)
                     .resizable()
                     .aspectRatio(contentMode: .fill)
