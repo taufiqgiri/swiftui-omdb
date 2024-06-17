@@ -12,6 +12,7 @@ class MovieCacheModel: Object {
     @objc dynamic var Title: String = ""
     @objc dynamic var Poster: String = ""
     @objc dynamic var imdbID: String = ""
+    @objc dynamic var Year: String = ""
     
     override static func primaryKey() -> String? {
         return "id"

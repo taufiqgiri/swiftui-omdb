@@ -35,8 +35,7 @@ extension MovieProvider: TargetType {
             let param: [String: Any] = [
                 "s": keyword,
                 "apikey": "e404bf91",
-                "page": page,
-                "type": "movie"
+                "page": page
             ]
             
             return .requestParameters(parameters: param, encoding: URLEncoding.default)
